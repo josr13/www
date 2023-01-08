@@ -5,21 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello, world!</title>
+    <meta name="description" content="Short description.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Joseph">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <script>
+        function doStuff(){
+            document.getElementById("name-button").innerHTML = "BUTTON";
+            document.getElementsById("title").style.color = "red"; 
+            <!--tiene que ser el mismo id en una sola funcion-->
+        }
+    </script>
+    <noscript>Your browser does not support JavaScript. 💀</noscript>
     
-    <header>Long title</header>
+    <header id="title">Long title</header>
     <br><br>
     <p> Paragraph 1</p>
-    <button class="new-button" id="name-button">Default button name</button>
-
-    <script>
-        document.getElementById("name-button").innerHTML = "BUTTON";
-    </script>
+    <button class="new-button" id="name-button" onclick="doStuff()">Default name</button>
 
     
-
 </body>
 </html>
