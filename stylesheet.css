@@ -1,12 +1,30 @@
 body {
     background-color: darkslateblue;
+    background-color: rgb(80, 100, 200);
     color: azure;
+    font-family: "Rubik", sans-serif;
 }
 
 header {
     text-align: center;
     color: gainsboro;
     font-family: "Rubik", sans-serif;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
+}
+
+.new-button {
+    border-radius: 8px;
+    border-left-color: darkred;
+    border-right-color: darkred;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 3px;
+}
+
+.new-button:hover {
+    background-color: darkslategray;
+    color: darkgrey;
+    border-width: 2px;
 }
