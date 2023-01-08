@@ -1,0 +1,12 @@
+body {
+    background-color: darkslateblue;
+    color: azure;
+}
+
+header {
+    text-align: center;
+    color: gainsboro;
+    font-family: "Rubik", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
