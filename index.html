@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello, world!</title>
-    <meta name="description" content="Short description.">
+    <meta name="description" content="Main Page.">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Joseph">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-
-    <script>
-        function doStuff(){
-            document.getElementById("name-button").innerHTML = "BUTTON";
-            document.getElementsById("title").style.color = "red"; 
-            <!--tiene que ser el mismo id en una sola funcion-->
-        }
-    </script>
     <noscript>Your browser does not support JavaScript. 💀</noscript>
 </head>
+
 <body>
     <header id="title">Long title</header>
     <br><br>
@@ -30,14 +24,15 @@
         <a href="#">Frameworks & Libraries</a>
         <a href="#">Tools & Platforms</a>
         <a href="#">Education</a>
-        <a href="#">Contact</a>
+        <a href="/contact.html">Contact</a>
     </nav>
     <br><br>
-    
+
     <p> Paragraph 1</p>
     <button class="new-button" id="name-button" onclick="doStuff()">Default name</button>
-
+    <script src="button.js"></script>
     <br><br>
     <footer>&copy; Joseph</footer>
 </body>
+
 </html>
