@@ -1,0 +1,37 @@
+#sample-canvas {
+    border: 3px solid darkblue;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+#sample-svg {
+    border: 8px solid darkseagreen;
+    width: 100px;
+    height: 200px;
+    background-color: lightcyan;
+    transition-delay: 2s;
+    transform: translateX(200px);
+    transition: translateX 800ms ease;
+}
+
+#svg-circle {
+    cx: 50px;
+    cy: 50px;
+    r: 40px;
+    stroke: red;
+    stroke-width: 4px;
+    fill: blue;
+}
+
+#svg-rect {
+    height: 80px;
+    width: 60px;
+    rx: 20px;
+    ry: 20px;
+    fill: purple;
+    stroke-width: 2;
+    stroke: yellow;
+    transform: translate(20px,100px);
+    opacity: 70%;
+}
