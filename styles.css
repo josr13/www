@@ -1,10 +1,14 @@
 body {
     background-color: darkslateblue;
     background-color: rgb(40, 50, 120);
+    background-color: rgb(10, 5, 10);
     color: azure;
-    font-family: "Rubik", sans-serif;
+    font-family: "eurostile",sans-serif;
 }
 
+::selection {
+    background: rgba(48, 36, 47, 0.5);
+}
 
 .new-button {
     border-radius: 8px;
@@ -22,12 +26,14 @@ body {
     border-width: 2px;
 }
 
-#title {
-    text-align: center;
+.title {
+    text-align: right;
     color: gainsboro;
-    font-family: "Rubik", sans-serif;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 120px;
+    font-style: italic;
+    margin: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .contact-form {
@@ -43,4 +49,76 @@ body {
     width: 200px;
     height: 100px;
     background-color: aquamarine;
+}
+
+#sample-svg {
+    border: 8px solid darkseagreen;
+    width: 100px;
+    height: 200px;
+    background-color: lightcyan;
+    transition-delay: 2s;
+    transform: translateX(200px);
+    transition: translateX 800ms ease;
+}
+
+#svg-circle {
+    cx: 50px;
+    cy: 50px;
+    r: 40px;
+    stroke: red;
+    stroke-width: 4px;
+    fill: blue;
+}
+
+#svg-rect {
+    height: 80px;
+    width: 60px;
+    rx: 20px;
+    ry: 20px;
+    fill: purple;
+    stroke-width: 2;
+    stroke: yellow;
+    transform: translate(20px,100px);
+    opacity: 70%;
+}
+
+.index-nav {
+    margin: 50px;
+}
+
+#nav-item {
+    text-decoration: none;
+    font-size: 80px;
+    color: silver;
+    display: block;
+    justify-content: left;
+    padding: 10px;
+    text-transform: lowercase;
+    font-family: Square721Cond,Helvetica,Arial,sans-serif;
+    font-family: "eurostile",sans-serif;
+    opacity: 1;
+}
+
+.index-nav:hover > #nav-item:hover{
+    color: crimson;
+    color: rgb(60,20,220);
+    opacity: 1;
+    transition: opacity 300ms ease-out;
+}
+
+.index-nav:hover > #nav-item{
+    opacity: 0.4;
+    transition: opacity 500ms ease-in-out;
+}
+
+.section {
+    text-align: left;
+    color: gainsboro;
+    font-size: 120px;
+    font-style: italic;
+    margin: 40px;
+    text-transform: lowercase;
+    font-weight: 600;
+    margin-left: 40px;
+    letter-spacing: 2px;
 }
