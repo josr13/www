@@ -1,4 +1,5 @@
 body {
+    display: flexbox;
     background-color: darkslateblue;
     background-color: rgb(40, 50, 120);
     background-color: rgb(10, 5, 10);
@@ -31,6 +32,7 @@ body {
     text-align: right;
     color: gainsboro;
     font-size: 120px;
+    font-size: 15vh;
     font-style: italic;
     margin: 40px;
     font-weight: 600;
@@ -51,13 +53,13 @@ body {
 
 #nav-item {
     text-decoration: none;
-    font-size: 80px;
+    font-size: 9vh;
     color: silver;
     display: block;
     justify-content: left;
-    padding: 10px;
+    padding: 0.1vh;
     text-transform: lowercase;
-    font-family: Square721Cond,Helvetica,Arial,sans-serif;
+    /* font-family: Square721Cond,Helvetica,Arial,sans-serif; */
     font-family: "eurostile",sans-serif;
     opacity: 1;
 }
@@ -92,4 +94,9 @@ body {
     font-weight: 600;
     margin-left: 40px;
     letter-spacing: 2px;
+}
+
+footer {
+    text-align: end;
+    font-size: 3vh;
 }
