@@ -4,7 +4,7 @@ body {
     background-color: rgb(40, 50, 120);
     background-color: rgb(10, 5, 10);
     color: azure;
-    font-family: "eurostile",sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 ::selection {
@@ -60,7 +60,7 @@ body {
     padding: 0.1vh;
     text-transform: lowercase;
     /* font-family: Square721Cond,Helvetica,Arial,sans-serif; */
-    font-family: "eurostile",sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     opacity: 1;
 }
 
